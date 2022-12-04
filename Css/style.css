@@ -16,6 +16,50 @@ body {
 
 }
 
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-data {
+    margin: 25px;
+}
+
+.home-title {
+    color: #52f9cf;
+}
+
+.home-subtitle {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    color: #07dea8;
+}
+
+.home-description {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #011913;
+}
+
+.hire-me-button {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #2df8c5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#011913;
+}
+.hire-text{
+    margin-right: 10px;
+}
+
 .nav-bar {
     width: 90%;
     height: 80px;
@@ -57,8 +101,7 @@ body {
     width: 90px;
     height: 39.233px;
     border-radius: 20px;
-    background-color:#2df8c5
-    ;
+    background-color: #2df8c5;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -71,7 +114,7 @@ body {
 }
 
 .home-head {
-    margin: 100px 0px 50px 0px;
+    margin: 100px 0px 5px 0px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -97,7 +140,6 @@ body {
     width: fit-content;
     height: fit-content;
     background-color: #2df8c5;
-    border-radius: 5px;
     border-radius: 10px;
 
 }
@@ -105,7 +147,7 @@ body {
 .social-icon {
     background-color: #02bf91;
     color: #07634c;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 10px;
     border-radius: 10px;
     transform: rotate(20deg);
@@ -118,7 +160,7 @@ body {
 }
 
 .home-social-icon {
-    margin: 25px 15px 0px 15px;
+    margin: 15px 15px 15px 25px;
 
 }
 
