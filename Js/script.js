@@ -1,8 +1,6 @@
 let light = document.getElementById('darkLight');
 let visualMode = document.getElementById("Mode");
-light.addEventListener('click',dothis);
-function dothis()
-{
+light.addEventListener('click',()=>{
     if(light.style.justifyContent === "start")
     {
         light.style.justifyContent="end";
@@ -15,4 +13,4 @@ function dothis()
         visualMode.classList.remove("fa-sun");
         visualMode.classList.add("fa-moon");
     }
-}
+});
